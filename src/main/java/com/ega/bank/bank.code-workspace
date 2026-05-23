@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../.."
+		},
+		{
+			"path": "../../../../../../../bank-frontend"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^\\.\\\\mvnw clean compile$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^\\.\\\\mvnw compile -q$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^cd \"c:\\\\Users\\\\AN\\\\Desktop\\\\bank-frontend\" ; npm run start$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^Get-Content \\.\\\\target\\\\\\*\\.log -Tail 50 -ErrorAction SilentlyContinue; Write-Host \"---\"; Get-ChildItem \\.\\\\logs -ErrorAction SilentlyContinue \\| ForEach-Object \\{ Get-Content \\$_\\.FullName -Tail 30 \\}$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
+}
